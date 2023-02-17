@@ -133,6 +133,7 @@ img {
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
+        transition: .25s all linear;
     }
 }
 
@@ -141,6 +142,65 @@ img {
 /* #region @media_smarthphone */
 
 @media screen and (max-width: 480px) {
+    
+    
+    .row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    .text {
+        font-size: 1.25rem;
+    }
+
+    body {
+        background-color: #232322;
+    }
+
+    .site-header {
+        background-color: #232946;
+        margin: 0;
+        padding-top: 3rem;
+    }
+
+    .lessons {
+        background-color: #232946;
+        margin: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .steps {
+        margin-top: 0;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col
+     {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        display: flex;
+        justify-content: center;
+    }
+    .why-us .col-left img {
+        width: 90%;
+    }
     
 }
 
