@@ -131,7 +131,9 @@ img {
 /* #region @media_tablet */
 
 @media screen and (max-width: 768px) {
-    
+    .container {
+        width: 100%;
+    }
 }
 
 /* #endregion @media_tablet */
